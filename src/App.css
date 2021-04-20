@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.header svg {
+  height: 50px;
+  fill: rgb(140, 218, 159);
+  padding-left: 50px;
+}
+.header{
+  background-color: indigo;
+  padding: 20px;
+  color: white;
+  border-bottom: 3px solid rgb(140, 218, 159);
+  height: 300px;
+}
+.tailwind-logo {
+  position: relative;
+  left: 1000px;
+  border-radius: 50%;
+  background: white;
+  height: 150px;
+  border: 5px solid rgb(140, 218, 159);
+}
+.header h1{
+  font-size: 25px;
+}
+.header h1,
+.header p{
+  padding-left:50px;
+  padding-top: 20px;
+}
+
+button{
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 10px;
+  width: 150px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: white;
+  background-color: rgb(140, 218, 159);
+  border-radius: 30px;
+  border: 1px solid rgb(140, 218, 159) ;
+}
+.main{
+  background-color: rgb(228, 222, 222);
+  padding: 70px;
+}
+.main h1 {
+  border-bottom: 1px solid rgb(223, 9, 223);
+  padding-bottom: 15px;
+  color: purple;
+  font-size: 25px;
+}
+.main p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.boxes{
+  display: flex;
+  width: 100%;
+}
+.box {
+  background: white;
+  border-radius: 10px;
+  border-bottom: 3px solid rgb(140, 218, 159);
+  padding: 25px;
+  width: 30%;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 40px;
+  text-align: center;
+}
+.box svg{
+  height: 50px;
+  margin: 20px;
+  fill: rgb(17, 153, 51);
+  padding-left: 50px;
+  padding: 0;
+  background: rgb(207, 206, 206);
+  border-radius: 50%;
+}
+.footer{
+  background-color: rgb(32, 8, 32);
+  text-align: center;
+  color: gray;
+}
+.footer h2 {
+  padding: 30px 0;
+  font-size: 25px;
+}
+.footer div {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+}
+input[type='text'] {
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgb(189, 188, 188);
+  color: white;
+  width: 25%;
+}
+.footer button{
+  width: 51%;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 61px;
+}
+.footer button:hover{
+  background-color: rgb(61, 150, 83);
+}
+.footer p {
+  padding: 30px;
+  color: rgb(140, 218, 159);
+}
+
+@media (max-width:320px) {
+  .header {
+    padding: 20px;
+  }
+  .header svg{
+    padding: 0;
+  }
+  .header h1 {
+    padding: 0;
+    font-size: 22px;
+  }
+  .header p {
+    padding-left: 0;
+  }
+  .header button{
+    margin-left: 0;
+    padding: 5px;
+  }
+  .tailwind-logo {
+    left: 200px;
+    top: -10px;
+    height: 70px;
+    border: 2px solid rgb(61, 150, 83);
+  }
+  .main {
+    padding: 10px;
+  }
+  .boxes{
+    display: block;
+  }
+  .box{
+    width: 100%;
+  }
+  .footer h2{
+    font-size: 15px;
+  }
+  .footer div{
+    padding-bottom: 0;
+  }
+  .footer input{
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .footer button {
+    width: 80%;
+    margin-left: 30px;
+  }
+}
